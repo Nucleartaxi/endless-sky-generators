@@ -19,12 +19,13 @@ Some examples of things you can do:
 These instructions will get you a copy of the project up and running.
 
 ### Prerequisites
-1. [Download the latest version of Python](https://www.python.org/downloads/). Scroll to the bottom to choose the correct download for your OS. If you are on windows, choose the `Windows x86-64 executable installer`.
+1. [Download the latest version of Python](https://www.python.org/downloads/) (Python 3.8.1 or later).
 2. Run the installer to install Python to your computer.
 
 ### Installing
 1. Download the latest version of Endless Sky Generators from [the releases page](https://github.com/Nucleartaxi/endless-sky-generators/releases).
 2. Extract the .zip wherever you like.
+3. You're ready to go!
 
 ## Usage <a name = "usage"></a>
 With Endless Sky Generators installed, you are ready to begin generating customizable ships, outfits, and galaxies. Jump right in with the quick start guide, or see the wiki for full documentation.
