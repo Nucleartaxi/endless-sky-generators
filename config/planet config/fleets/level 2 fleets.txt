@@ -1,0 +1,3 @@
+merchant fleet, 500, 1000
+crappy merchant fleet, 1000, 2000
+local police, 750, 1500

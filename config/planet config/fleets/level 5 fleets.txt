@@ -1,0 +1,5 @@
+huge merchant fleet, 500, 1000
+big merchant fleet, 500, 1000
+small military, 500, 1000
+big military, 500, 1500
+huge military, 1000, 2000

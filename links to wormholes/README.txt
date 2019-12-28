@@ -1,0 +1,1 @@
+The links to wormholes script replaces every hyperlane in the galaxy with a wormhole linking the systems together. To use, place your galaxy file in this folder, rename it to "map", and run the script. Your new galaxy will be called "mapoutput.txt". 
