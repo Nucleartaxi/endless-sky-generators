@@ -1,0 +1,1 @@
+Text files outputted by the generators are automatically placed in this output folder.
