@@ -11,7 +11,7 @@ Endless Sky Generators is designed to help with content creation for [Endless Sk
 
 Some examples of things you can do:
 - Generate a set of 5 batteries where each provides 20% more energy and 10% less outfit space per tier
-- Generate 10 ships with random costs, sheilds, and cargo in configurable ranges
+- Generate 10 ships with random costs, shields, and cargo in configurable ranges
 - Generate a complete galaxy of 1000 named systems with fleets, planets, commodities, and custom planet descriptions
 - And much more! See [Usage](#usage) and the wiki for complete information.
 
