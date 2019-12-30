@@ -28,4 +28,4 @@ These instructions will get you a copy of the project up and running.
 3. You're ready to go!
 
 ## Usage <a name = "usage"></a>
-With Endless Sky Generators installed, you are ready to begin generating customizable ships, outfits, weapons, and galaxies. Jump right in with the quick start guide, or see [the wiki](/wiki/) for full documentation.
+With Endless Sky Generators installed, you are ready to begin generating customizable ships, outfits, weapons, and galaxies. Jump right in with the quick start guide, or see [the wiki](https://github.com/Nucleartaxi/endless-sky-generators/wiki) for full documentation.
