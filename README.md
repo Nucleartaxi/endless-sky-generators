@@ -13,7 +13,7 @@ Some examples of things you can do:
 - Generate a set of 5 batteries where each provides 20% more energy and 10% less outfit space per tier
 - Generate 10 ships with random costs, shields, and cargo in configurable ranges
 - Generate a complete galaxy of 1000 named systems with fleets, planets, commodities, and custom planet descriptions
-- And much more! See [Usage](#usage) and the wiki for complete information.
+- And much more! See [features](features link) for a complete list of features.
 
 ## Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running.
@@ -28,4 +28,4 @@ These instructions will get you a copy of the project up and running.
 3. You're ready to go!
 
 ## Usage <a name = "usage"></a>
-With Endless Sky Generators installed, you are ready to begin generating customizable ships, outfits, and galaxies. Jump right in with the quick start guide, or see the wiki for full documentation.
+With Endless Sky Generators installed, you are ready to begin generating customizable ships, outfits, weapons, and galaxies. Jump right in with the quick start guide, or see [the wiki](wiki) for full documentation.
