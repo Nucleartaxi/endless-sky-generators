@@ -74,19 +74,19 @@ effect_radius_level_5 - radius of effect of level 5 points. Systems closest to t
 
 
 level_1_description - which description file to use for planets in level 1 systems
-level 1
+description
 
 level_2_description - which description file to use for planets in level 2 systems
-level 2
+description
 
 level_3_description - which description file to use for planets in level 3 systems
-level 3
+description
 
 level_4_description - which description file to use for planets in level 4 systems
-level 4
+description
 
 level_5_description - which description file to use for planets in level 5 systems
-level 5
+description
 
 
 level_1_spaceport - which spaceport description file to use for planets in level 1 systems

@@ -878,51 +878,33 @@ def galaxy_write_systems(galaxy):
 
     for planet in planet_names_list:
         galaxy_output.write('planet "' + planet.name + '"\n')
-        try:
+        myprint(planet.planet_properties.attribute)
+        if planet.planet_properties.attribute[0] != '':
             galaxy_output.write('\tattributes ' + str(planet.planet_properties.attribute).replace('[','').replace(']','').replace("'","").replace(',','').strip() + '\n')
-        except:
-            pass
         galaxy_output.write('\tlandscape land/' + str(planet.planet_properties.landscape).strip('\n') + '\n')
         galaxy_output.write('\tdescription `' + str(planet.descriptions[0]) + '`\n')
         galaxy_output.write('\tspaceport `' + str(planet.descriptions[1]) + '`\n')
 
-        try:
+        if planet.planet_properties.shipyard[0] != '':
             for item in planet.planet_properties.shipyard:
                 galaxy_output.write('\tshipyard ' + str(item) + '\n')
-        except:
-            pass
-        try:
+        if planet.planet_properties.outfitter[0] != '':
             for item in planet.planet_properties.outfitter:
                 galaxy_output.write('\toutfitter ' + str(item) + '\n')
-        except:
-            pass
-        try:
+
+        if planet.planet_properties.required_reputation != '':
             galaxy_output.write('\t"required reputation" ' + str(planet.planet_properties.required_reputation) + '\n')
-        except:
-            pass
-        try:
+        if planet.planet_properties.bribe != '':
             galaxy_output.write('\tbribe ' + str(planet.planet_properties.bribe) + '\n')
-        except:
-            pass
-        try:
+        if planet.planet_properties.security != '':
             galaxy_output.write('\tsecurity ' + str(planet.planet_properties.security) + '\n')
-        except:
-            pass
-        try:
-            if planet.planet_properties.tribute is not None:
-                galaxy_output.write('\ttribute ' + str(planet.planet_properties.tribute) + '\n')
-        except:
-            pass
-        try:
-            if planet.planet_properties.threshold is not None:
-                galaxy_output.write('\t\tthreshold ' + str(planet.planet_properties.threshold) + '\n')
-        except:
-            pass
-        try:
-            if planet.planet_properties.fleet is not None:
-                galaxy_output.write('\t\tfleet ' + str(planet.planet_properties.fleet) + '\n')
-        except:
-            pass
+        if planet.planet_properties.tribute != '':
+            galaxy_output.write('\ttribute ' + str(planet.planet_properties.tribute) + '\n')
+        if planet.planet_properties.threshold != '':
+            galaxy_output.write('\t\tthreshold ' + str(planet.planet_properties.threshold) + '\n')
+        if planet.planet_properties.fleet != '':
+            galaxy_output.write('\t\tfleet ' + str(planet.planet_properties.fleet) + '\n')
+
 
         galaxy_output.write('\n')
 

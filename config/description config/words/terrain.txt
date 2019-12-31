@@ -1,6 +1,3 @@
-<mountains>
-<hills>
-<flats>
-<cliffs>
-<coasts>
+<height> mountains
+<height> cliffs and deep ravines
 <oceans>
