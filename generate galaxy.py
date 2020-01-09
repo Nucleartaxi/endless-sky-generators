@@ -878,7 +878,7 @@ def galaxy_write_systems(galaxy):
 
     for planet in planet_names_list:
         galaxy_output.write('planet "' + planet.name + '"\n')
-        myprint(planet.planet_properties.attribute)
+        #myprint(planet.planet_properties.attribute)
         if planet.planet_properties.attribute[0] != '':
             galaxy_output.write('\tattributes ' + str(planet.planet_properties.attribute).replace('[','').replace(']','').replace("'","").replace(',','').strip() + '\n')
         galaxy_output.write('\tlandscape land/' + str(planet.planet_properties.landscape).strip('\n') + '\n')
