@@ -8,11 +8,11 @@ import random
 def roundup100(x):
     return int(math.ceil(x / 100.0)) * 100
 
-log_file = open('galaxy generator log.txt','w')
+#log_file = open('galaxy generator log.txt','w')
 def myprint(text):
     print(text)
-    log_file.write(str(text) + '\n')
-
+    #log_file.write(str(text) + '\n')   #will change to logging module
+    
 class system():
     def __init__(self, name, pos, links, galaxy_name, system_layer, planet_list, level):
         self.name = name
@@ -937,7 +937,7 @@ def load_galaxy_configs():
 
         global galaxy_output_file #Output file
         galaxy_output_file = ""
-        #galaxy_output_file = str(galaxy_configs_list[galaxy_configs_iterations]).replace("\\", "/").replace("config/galaxy config/", "")   #This is for dynamic galaxy output with a seperate file for each galaxy config
+        galaxy_output_file = str(galaxy_configs_list[galaxy_configs_iterations]).replace("\\", "/").replace("config/galaxy config/", "" + ' ')   #This is for dynamic galaxy output with a seperate file for each galaxy config
         
         global star_config_file
         star_config_file = "config/planet config/planet sprites/000 stars.txt"
