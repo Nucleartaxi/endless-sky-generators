@@ -1,5 +1,5 @@
 # Endless Sky Generators
-Generate configurable ships, outfits, weapons, and galaxies for the space trading game [Endless Sky](https://endless-sky.github.io/).
+Generate configurable ship, outfit, weapon, and galaxy data for the space trading game [Endless Sky](https://endless-sky.github.io/).
 
 ## Table of Contents
 - [About](#about)
@@ -13,7 +13,7 @@ Some examples of things you can do:
 - Generate a set of 5 batteries where each provides 20% more energy and 10% less outfit space per tier
 - Generate 10 ships with random costs, shields, and cargo in configurable ranges
 - Generate a complete galaxy of 1000 named systems with fleets, planets, commodities, and custom planet descriptions
-- And much more! See [features](features link) for a complete list of features.
+- And much more! See [the wiki](https://github.com/Nucleartaxi/endless-sky-generators/wiki) for full documentation on how to use the generators.
 
 ## Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running.
