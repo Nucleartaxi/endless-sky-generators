@@ -10,12 +10,11 @@ Later I will run these star names through the language mixer to get more variety
 
 
 
-
-planet names 1 is a list of stations from eddb with "station", "orbital", etc. removed from the end. There are almost 4000 of them. 
-
 ######
 Planet names 2-7 took planet names 1 and ran it through this: http://chaoticshiny.com/langreplace.php. This language mixer mixes up some letters and changes how the names sound. Look through some of the lists to find one you like that fits your content.
 ######
+
+planet names 1 is a list of stations from eddb with "station", "orbital", etc. removed from the end. There are almost 4000 of them. 
 
 planet names 2 uses the 3 harsh alphabet conversions combined.
 
