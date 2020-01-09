@@ -1,3 +1,4 @@
+# Copyright (c) 2020 by Nucleartaxi
 
 import random
 
@@ -12,9 +13,10 @@ system_dict_names = []
 started = False
 is_reading = False
 
+print("Please wait, reading links.....")
 for line in map_file:
     line = line.strip('\n')
-    print(line)
+    #print(line)
     
     if 'system' in line:
         system_name = line.replace('system ', '')
@@ -48,6 +50,7 @@ wormhole_temp_list = []
 print("Please wait, generating wormholes.....")
 for pt in system_dict_names:
     for PT in system_dict_names:
+#These prints are just here for debugging
 #        print("\n")
 #        print("pt | " + pt + " ||||| " + str(system_dict[pt][0]))
 #        print("PT | " + PT + " ||||| " + str(system_dict[PT][0]))
@@ -64,12 +67,11 @@ for pt in system_dict_names:
         system_dict[pt] = (system_dict[pt][0], system_dict[pt][1], wormhole_temp_list)
     wormhole_temp_list = []
             
-print(wormhole_list)
-
-
+#print(wormhole_list)
 
 #Writes to file
-map_output_file = open(file_name + "output.txt", "w")
+#map_output_file = open(file_name + "output.txt", "w")
+map_output_file = open("map output.txt", "w")
 
 for name in system_dict_names:
     for item in system_dict[name][1]:
@@ -77,8 +79,10 @@ for name in system_dict_names:
     for wormhole in system_dict[name][2]:
             map_output_file.write('\tobject ' + '"' + str(wormhole) + '"' + '\n')
             map_output_file.write('\t\tsprite planet/wormhole' + '\n')
-            map_output_file.write('\t\tdistance ' + str(random.randint(1000, 5000)) + '\n')
-            map_output_file.write('\t\tperiod ' + str(random.randint(1000, 10000)) + '\n')
+            distance = random.randint(1000, 4000)
+            period = round((distance ** 2) ** (1 / 3), 4)
+            map_output_file.write('\t\tdistance ' + str(distance) + '\n')
+            map_output_file.write('\t\tperiod ' + str(period) + '\n')
     map_output_file.write('\n')
 
 wormhole_list = list(set(wormhole_list))
@@ -87,3 +91,5 @@ for wormhole in wormhole_list:
     map_output_file.write('\tdescription ""'+ '\n')
     map_output_file.write('\n')
 
+print('finished!')
+input()

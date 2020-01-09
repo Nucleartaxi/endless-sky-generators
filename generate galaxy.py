@@ -1,4 +1,4 @@
-# Copyright (c) 2019 by Nucleartaxi
+# Copyright (c) 2020 by Nucleartaxi
 
 #Imports
 import math

@@ -1,4 +1,4 @@
-# Copyright (c) 2019 by Nucleartaxi
+# Copyright (c) 2020 by Nucleartaxi
 
 #script to import outfitted ships from save file
 #Output stats to CSV
