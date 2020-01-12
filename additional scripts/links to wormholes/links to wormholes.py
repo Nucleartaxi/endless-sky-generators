@@ -70,7 +70,7 @@ for pt in system_dict_names:
 #print(wormhole_list)
 
 #Writes to file
-#map_output_file = open(file_name + "output.txt", "w")
+#map_output_file = open(file_name.replace('.txt', ' ') + "output.txt", "w")
 map_output_file = open("map output.txt", "w")
 
 for name in system_dict_names:
