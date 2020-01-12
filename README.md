@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running.
 
 ### Prerequisites
 1. [Download the latest version of Python](https://www.python.org/downloads/) (Python 3.8.1 or later).
-2. Run the installer to install Python to your computer.
+2. Run the installer to install Python.
 
 ### Installing
 1. Download the latest version of Endless Sky Generators from [the releases page](https://github.com/Nucleartaxi/endless-sky-generators/releases).
