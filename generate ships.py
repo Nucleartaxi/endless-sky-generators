@@ -141,7 +141,7 @@ def create_ship():
         if "ship_explode_huge" in line:
             ship_explode_huge = next(generate_ships_config)
         if "ship_final_explode" in line:
-            ship_final_explode = next(generate_ships_config)
+            ship_final_explode = next(generate_ships_config).strip()
 
 
 
