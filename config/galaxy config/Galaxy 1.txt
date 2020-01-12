@@ -57,7 +57,7 @@ system_level_generation_type - random, radial
 radial
 
 system_level_debug - VERY useful for finding out each system's level. Once you have a galaxy you are happy with, be sure to set this to false and regenerate your galaxy so you will have the proper system names without numbers attached.
-true
+false
 
 
 num_points_level_5 - number of level 5 points to be generated 

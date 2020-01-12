@@ -213,7 +213,7 @@ def create_ship():
         ship_output.write('\t\t\t"hit force" ' + str(ship_hit_force) + "\n")
         ship_output.write('\t\toutfits ' + "\n")
         #ship_output.write('          ' + str() + " " + str() + "\n")
-        ship_output.write("\n")
+        #ship_output.write("\n")
         ship_output.write('\t\tengine 0 35' + "\n")
 
         i = 0
@@ -244,7 +244,7 @@ def create_ship():
         ship_output.write('\t\texplode "huge explosion" ' + str(ship_explode_huge))
         ship_output.write('\t\t"final explode" "' + str(ship_final_explode) + '"' + "\n")
 
-        ship_output.write('\t\tdescription ""')
+        ship_output.write('\t\tdescription ""\n')
 
 
 

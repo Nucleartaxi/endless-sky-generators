@@ -31,7 +31,7 @@ ship_seed
   Engine Capacity rounds to 10
 
 ship_type_amount - How many types of this ship to generate
-1
+3
 
 
 ### Available Ship Categories ###
