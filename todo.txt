@@ -1,3 +1,0 @@
-- Run star names through language mixer
-- Add log messages using the Python Logging Module
-- Add more habitable planet chance controls in galaxy configs
