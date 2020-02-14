@@ -822,7 +822,7 @@ def system_planets(system, galaxy): #Generates planets in system
 
 def galaxy_write_systems(galaxy):
     myprint('Writing systems for galaxy ' + str(galaxy.name) + '...')
-    galaxy_output = open("output/galaxy" + galaxy_output_file + ".txt", "w")
+    galaxy_output = open("output/" + galaxy_output_file.strip(), "w")
     for item in system_list:                #W R I T E S   S Y S T E M S
         #name
         galaxy_output.write('system ' + '"' + str(item.name) + '"' + "\n")
