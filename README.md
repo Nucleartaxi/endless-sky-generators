@@ -1,5 +1,5 @@
 # Endless Sky Generators
-Generate configurable ship, outfit, weapon, and galaxy data for the space trading game [Endless Sky](https://endless-sky.github.io/).
+Generate configurable ship, outfit, weapon, and galaxy data for the open source space trading game [Endless Sky](https://endless-sky.github.io/).
 
 ## Table of Contents
 - [About](#about)
