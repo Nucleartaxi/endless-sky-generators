@@ -1,0 +1,41 @@
+government "Alpha"
+	swizzle 1
+	"crew attack" 1.4
+	"crew defense" 2.2
+	"player reputation" -1000
+	"bribe" 0
+
+government "Author"
+	"player reputation" 1
+	"bribe" 0
+
+government "Builder"
+	# While when you attack the drones they will try to defend themselves, when you come back 
+	# as long as you don't attack them again they will focus on their usual activities
+	color .91 .13 .82
+	language "Builder"
+	"penalty for"
+		assist 0
+		disable 0
+		board 0
+		capture 0
+		destroy 0
+		atrocity 0
+
+# A dummy government used to prevent Hai from entering the wormhole in Waypoint/Ultima Thule, but allowing human merchants and other governments to enter.
+government "Wormhole Alpha"
+	"attitude toward"
+		"Hai" -.01
+		"Hai (Unfettered)" -.01
+
+
+"test" "multiple sets" "of quotes" #
+
+#########
+
+
+
+conversation "intro"
+	scene "scene/lobby"
+	`The bank's architecture is what you would have called "futuristic" back when you dreamed that the future would be less squalid than the present: story above story of curves and spires and balconies, all in gleaming metal. A doorman stands by each of the heavy glass doors. You are wearing your very best clothes, but you feel shabby next to them.`
+	`	The loan broker's office is equally intimidating. Large computer monitors fill the walls, with stock quotes and other information spilling down them almost too fast to read. You occasionally glimpse the names of places that you have only seen in movies: Aldebaran. Tarazed. Earth.`
